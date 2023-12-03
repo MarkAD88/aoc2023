@@ -33,7 +33,7 @@
         static Game[] ParseInput(string input)
         {
             var lines = input.Split('\n');
-            var results = lines.Where(line => line != "\r").Select(line => new Game(line)).ToArray();
+            var results = lines.Where(line => line != "\r" && line != string.Empty).Select(line => new Game(line)).ToArray();
             return results;
         }
     }
