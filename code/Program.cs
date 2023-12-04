@@ -17,3 +17,8 @@ Console.WriteLine($"Day02-b: {Day02.TaskTwo(input)}");
 input = File.ReadAllText(Path.Combine("inputs", "day03.txt"));
 Console.WriteLine($"Day03-a: {Day03.TaskOne(input)}");
 Console.WriteLine($"Day03-b: {Day03.TaskTwo(input)}");
+
+// Day 04
+input = File.ReadAllText(Path.Combine("inputs", "day04.txt"));
+Console.WriteLine($"Day04-a: {Day04.TaskOne(input)}");
+Console.WriteLine($"Day04-b: {Day04.TaskTwo(input)}");
