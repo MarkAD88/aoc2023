@@ -15,24 +15,13 @@ Day       Time    Rank  Score       Time    Rank  Score
 ```
 
 ## Day 05 Part Two
-A complete and utter code disaster.  My solution for Part One
-while accurate was grossly inefficient.  When I tried to brute
-force my way through part two it just fell over and wouldn't
-complete.  
+A complete and utter code disaster.  My solution for Part One while accurate was grossly inefficient.  When I tried to brute force my way through part two it just fell over and wouldn't complete.  
 
 ## Day 07 Part One
-Got started an hour late on this one and got really hung up
-on how to generate values for each poker hand.  Had a hell
-of a time getting the first answer right.  The root cause of
-my problem was that I was not performing tie-breaker logic
-the way the instructions described but was instead using
-standard poker tie-breaking logic.  Once I realized the issue
-I had it solved.
+Got started an hour late on this one and got really hung up on how to generate values for each poker hand.  Had a hell of a time getting the first answer right.  The root cause of my problem was that I was not performing tie-breaker logic the way the instructions described but was instead using standard poker tie-breaking logic.  Once I realized the issue I had it solved.
 
 ## Day 07 Part Two
-Throwing Jokers into the mix really caused me some grief.  I
-couldn't nudge my Part One solution into place so I ended up
-with copy-pasta.  Not horrible but felt like a minor defeat.
-I spent over an hour tracking down a bug in my sorting logic
-that was caused by me tracking a flag indicating if a high
-card exists.  Once I saw it I understood how dumb it was.
+Throwing Jokers into the mix really caused me some grief.  I couldn't nudge my Part One solution into place so I ended up with copy-pasta.  Not horrible but felt like a minor defeat.  I spent over an hour tracking down a bug in my sorting logic that was caused by me tracking a flag indicating if a high card exists.  Once I saw it I understood how dumb it was.
+
+## Day 07 Refactor
+I hated that the code was still written using my initial bad assumption that I would have to rank hands using actual poker rules instead of the Camel rules.  I refactored it all with that assumption removed and the code is MUCH cleaner now.

@@ -54,17 +54,6 @@ namespace tests.unit
         public void JokerSortingTests()
         {
             List<Day072.Hand> hands = [
-                Day072.Hand.Parse("8883J 0"),
-                Day072.Hand.Parse("33JJT 0"),
-                Day072.Hand.Parse("3333T 0"),
-                Day072.Hand.Parse("QQQQ3 0"),
-                Day072.Hand.Parse("44JJA 0"),
-                Day072.Hand.Parse("44442 0"),
-                Day072.Hand.Parse("444JT 0"),
-                Day072.Hand.Parse("44447 0"),
-            ];
-
-            hands = [
                 Day072.Hand.Parse("99998 0"),
                 Day072.Hand.Parse("999JA 0"),
                 Day072.Hand.Parse("9998J 0"),
@@ -89,9 +78,46 @@ namespace tests.unit
             ];
 
             var sorted = hands.OrderBy(hand => hand).ToArray();
+        }
 
+        [Fact]
+        public void TaskOneSimpleRefactor()
+        {
+            var input = @"
+                32T3K 765
+                T55J5 684
+                KK677 28
+                KTJJT 220
+                QQQJA 483";
 
+            Day073.TaskOne(input).Should().Be(Day07.TaskOne(input));
+        }
 
+        [Fact]
+        public void TaskOneFullRefactor()
+        {
+            var input = File.ReadAllText(Path.Combine("inputs", "day07.txt"));
+            Day073.TaskOne(input).Should().Be(Day07.TaskOne(input));
+        }
+
+        [Fact]
+        public void TaskTwoSimpleRefactor()
+        {
+            var input = @"
+                32T3K 765
+                T55J5 684
+                KK677 28
+                KTJJT 220
+                QQQJA 483";
+
+            Day073.TaskTwo(input).Should().Be(Day072.TaskTwo(input));
+        }
+
+        [Fact]
+        public void TaskTwoFullRefactor()
+        {
+            var input = File.ReadAllText(Path.Combine("inputs", "day07.txt"));
+            Day073.TaskTwo(input).Should().Be(Day072.TaskTwo(input));
         }
     }
 }
