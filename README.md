@@ -28,5 +28,8 @@ Throwing Jokers into the mix really caused me some grief.  I couldn't nudge my P
 ## Day 07 Refactor
 I hated that the code was still written using my initial bad assumption that I would have to rank hands using actual poker rules instead of the Camel rules.  I refactored it all with that assumption removed and the code is MUCH cleaner now.
 
+## Day 08
+Much like Day 05 the first part was easy but when I tried using it to solve the second part it was not up to the task.  I used a stright forward but brute-force approach on the problem and then problem set was just too big in Part Two.  I've had the calculations running for nearly 24 hours and it still hasn't solved it yet.  I heard mention on-line that it should use the Chinese Remainder Theorem.  I might research that and see if I can't implement it.  Maybe learn something in the process.
+
 ## Day 09
 Got started late and I'm still trying to get use to developing on my Mac.  Decades of muscle memory isn't easy to overcome but I'm getting more comfortable with VSCode vs. Visual Studio.  I still feel its a big step down.  Might need to grab Rider and see how I feel with it.  The first part of the puzzle wasn't that hard.  The second part tripped me up - I just couldn't recognize the pattern for predicting the before state of the numbers.  I must have stared at it and jotted down notes for 45 minutes before I stumbled upon a mathmatical pattern.  There has to be a simpler way than the hack I used.
