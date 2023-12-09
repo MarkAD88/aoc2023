@@ -3,6 +3,9 @@ using code;
 
 Console.WriteLine("Hello, World!");
 
+string input;
+
+/*
 // Day 01
 var input = File.ReadAllText(Path.Combine("inputs", "day01.txt"));
 Console.WriteLine($"Day01-a: {Day01.TaskOne(input)}");
@@ -37,3 +40,9 @@ Console.WriteLine($"Day06-b: {Day06.TaskTwo(input)}");
 input = File.ReadAllText(Path.Combine("inputs", "day07.txt"));
 Console.WriteLine($"Day07-a: {Day07.TaskOne(input)}");
 Console.WriteLine($"Day07-b: {Day072.TaskTwo(input)}");
+*/
+
+// Day 09
+input = File.ReadAllText(Path.Combine("inputs", "day09-full.txt"));
+Console.WriteLine($"Day09-a: {Day09.TaskOne(input)}");
+Console.WriteLine($"Day09-b: {Day09.TaskTwo(input)}");
