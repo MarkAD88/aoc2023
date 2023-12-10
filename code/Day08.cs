@@ -50,7 +50,6 @@
          */
         public static long TaskTwo(string input)
         {
-            throw new Exception("SUPER SLOW CODE!  DON'T USE THIS!  USE TaskTwoChineseRemainderTheorem INSTEAD");
             var lines = input.ReplaceLineEndings("\n").Split('\n', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
             var sequence = lines[0];
             var nodes = Parse(lines[1..]);
