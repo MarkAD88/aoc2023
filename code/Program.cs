@@ -4,6 +4,7 @@ using code;
 Console.WriteLine("Hello, World!");
 
 string input;
+string[] lines = [];
 
 /*
 // Day 01
@@ -45,9 +46,13 @@ Console.WriteLine($"Day07-b: {Day072.TaskTwo(input)}");
 input = File.ReadAllText(Path.Combine("inputs", "day08.txt"));
 Console.WriteLine($"Day08-a: {Day08.TaskOne(input)}");
 Console.WriteLine($"Day08-b-crt: {Day08.TaskTwoChineseRemainderTheorem(input)}");
-*/
 
 // Day 09
 input = File.ReadAllText(Path.Combine("inputs", "day09-full.txt"));
 Console.WriteLine($"Day09-a: {Day09.TaskOne(input)}");
 Console.WriteLine($"Day09-b: {Day09.TaskTwo(input)}");
+*/
+
+// Day 10
+lines = File.ReadAllLines(Path.Combine("inputs", "day10-full.txt"));
+Console.WriteLine($"Day09-a: {Day10.TaskOne(lines)}");
