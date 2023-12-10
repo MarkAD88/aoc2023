@@ -6,7 +6,7 @@ C# implementations and tests using .NET 8 for the [Advent of Code 2023](https://
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
   9   01:30:02   10494      0   02:28:42   12495      0
-  8   00:59:01   11313      0          -       -      -
+  8   00:59:01   11313      0       >24h   52028      0
   7   03:00:54   15487      0   04:19:09   15254      0
   6   00:25:50    8248      0   00:35:54    8356      0
   5   01:46:03   12160      0          -       -      -
@@ -31,7 +31,7 @@ I hated that the code was still written using my initial bad assumption that I w
 ## Day 08
 Much like Day 05 the first part was easy but when I tried using it to solve the second part it was not up to the task.  I used a stright forward but brute-force approach on the problem and then problem set was just too big in Part Two.  I've had the calculations running for nearly 24 hours and it still hasn't solved it yet.  I heard mention on-line that it should use the Chinese Remainder Theorem.  I might research that and see if I can't implement it.  Maybe learn something in the process.
 
-### Day 08 Refactor
+### Chinese Remainder Theorem
 Wow.  Refactored my step finder, implemented the Chinese Remainder Theorem, and added a custom aggregator.  Lightning fast.  Code is super simple to read now.  Shout out to [@jonathanpaulson5053](https://github.com/jonathanpaulson) and his [Day 8 video](https://www.youtube.com/watch?v=07AMCU8Xyg4) that pointed me at the theorem.
 
 ## Day 09
