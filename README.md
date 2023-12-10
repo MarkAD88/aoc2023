@@ -5,6 +5,7 @@ C# implementations and tests using .NET 8 for the [Advent of Code 2023](https://
 ```text
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 10   04:02:42   12311      0          -       -      -
   9   01:30:02   10494      0   02:28:42   12495      0
   8   00:59:01   11313      0       >24h   52028      0
   7   03:00:54   15487      0   04:19:09   15254      0
@@ -36,3 +37,6 @@ Wow.  Refactored my step finder, implemented the Chinese Remainder Theorem, and 
 
 ## Day 09
 Got started late and I'm still trying to get use to developing on my Mac.  Decades of muscle memory isn't easy to overcome but I'm getting more comfortable with VSCode vs. Visual Studio.  I still feel its a big step down.  Might need to grab Rider and see how I feel with it.  The first part of the puzzle wasn't that hard.  The second part tripped me up - I just couldn't recognize the pattern for predicting the before state of the numbers.  I must have stared at it and jotted down notes for 45 minutes before I stumbled upon a mathmatical pattern.  There has to be a simpler way than the hack I used.
+
+## Day 10
+Part one tripped me up.  I don't have a clue how to accomplish Part 2.
