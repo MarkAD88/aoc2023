@@ -61,7 +61,7 @@ namespace tests.unit
         public void TaskTwoFull()
         {
             var input = File.ReadAllText(Path.Combine("inputs", "day08.txt"));
-            Day08.TaskTwo(input).Should().Be(0);
+            Day08.TaskTwoChineseRemainderTheorem(input).Should().Be(20220305520997);
         }
     }
 }

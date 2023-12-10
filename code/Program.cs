@@ -43,8 +43,8 @@ Console.WriteLine($"Day07-b: {Day072.TaskTwo(input)}");
 
 // Day 08
 input = File.ReadAllText(Path.Combine("inputs", "day08.txt"));
-Console.WriteLine($"Day07-a: {Day08.TaskOne(input)}");
-Console.WriteLine($"Day07-b: {Day08.TaskTwo(input)}");
+Console.WriteLine($"Day08-a: {Day08.TaskOne(input)}");
+Console.WriteLine($"Day08-b-crt: {Day08.TaskTwoChineseRemainderTheorem(input)}");
 */
 
 // Day 09
