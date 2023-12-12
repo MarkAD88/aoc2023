@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using code;
 
-Console.WriteLine("Hello, World!");
+using code;
 
 string input;
 string[] lines = [];
@@ -51,8 +50,13 @@ Console.WriteLine($"Day08-b-crt: {Day08.TaskTwoChineseRemainderTheorem(input)}")
 input = File.ReadAllText(Path.Combine("inputs", "day09-full.txt"));
 Console.WriteLine($"Day09-a: {Day09.TaskOne(input)}");
 Console.WriteLine($"Day09-b: {Day09.TaskTwo(input)}");
-*/
+
 
 // Day 10
 lines = File.ReadAllLines(Path.Combine("inputs", "day10-full.txt"));
-Console.WriteLine($"Day09-a: {Day10.TaskOne(lines)}");
+Console.WriteLine($"Day10-a: {Day10.TaskOne(lines)}");
+*/
+
+lines = File.ReadAllLines(Path.Combine("inputs", "day11-full.txt"));
+Console.WriteLine($"Day11-a: {Day11.TaskOne(lines)}");
+Console.WriteLine($"Day11-b: {Day11.TaskTwo(lines)}");
