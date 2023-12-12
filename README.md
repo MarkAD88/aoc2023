@@ -42,5 +42,5 @@ Got started late and I'm still trying to get use to developing on my Mac.  Decad
 ## Day 10
 Part one tripped me up.  I don't have a clue how to accomplish Part 2.
 
-## Day 11
+## Day 11 
 Had an epiphany this morning and refactored the code to improve the solve speed.  Sleeping on issues really is my magic power.
