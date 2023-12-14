@@ -5,6 +5,7 @@ C# implementations and tests using .NET 8 for the [Advent of Code 2023](https://
 ```text
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 13       >24h   31355      0          -       -      -
  11   03:12:35   13331      0   16:34:32   33500      0
  10   04:02:42   12311      0          -       -      -
   9   01:30:02   10494      0   02:28:42   12495      0
@@ -44,3 +45,6 @@ Part one tripped me up.  I don't have a clue how to accomplish Part 2.
 
 ## Day 11 
 Had an epiphany this morning and refactored the code to improve the solve speed.  Sleeping on issues really is my magic power.
+
+## Day 13
+Finally got around to this while travelling.  Hard problem to solve if for no other reason than I misread the instructions regarding how to calculate the values.
