@@ -76,7 +76,6 @@ public static class Day13
     private static long? FindMirrorLine(string[] lines)
     {
         var line = 0;
-        var spread = 0;
         var mirror = true;
         for (var i = 0; i < lines.Length - 1; i++)
         {
@@ -89,7 +88,6 @@ public static class Day13
             var top = i;
             mirror = true;
             var bottom = top + 1;
-            spread = 1;
             while (top >= 0 && bottom < lines.Length)
             {
                 if (lines[top] != lines[bottom])
@@ -100,7 +98,6 @@ public static class Day13
 
                 top -= 1;
                 bottom += 1;
-                spread += 1;
             }
 
             if (mirror)
