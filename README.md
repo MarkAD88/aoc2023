@@ -3,9 +3,8 @@
 C# implementations and tests using .NET 8 for the [Advent of Code 2023](https://adventofcode.com/2023/) event.
 
 ```text
-      --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
- 13       >24h   31355      0          -       -      -
+ 13       >24h   31355      0       >24h   29258      0
  11   03:12:35   13331      0   16:34:32   33500      0
  10   04:02:42   12311      0          -       -      -
   9   01:30:02   10494      0   02:28:42   12495      0
@@ -47,4 +46,4 @@ Part one tripped me up.  I don't have a clue how to accomplish Part 2.
 Had an epiphany this morning and refactored the code to improve the solve speed.  Sleeping on issues really is my magic power.
 
 ## Day 13
-Finally got around to this while travelling.  Hard problem to solve if for no other reason than I misread the instructions regarding how to calculate the values.
+Finally got around to this while travelling.  Hard problem to solve if for no other reason than I misread the instructions regarding how to calculate the values.  Part two was a beast.  I got 90% of the way there but kept coming up with the wrong answer still.  The issue was introduced by my approach to the problem.  I was accidentally ignoring valid results if the horizontal non-smudged index was the same as the smudged vertical index.  So much trial and error and manual string checking to troubleshoot.
