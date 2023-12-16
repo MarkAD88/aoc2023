@@ -65,9 +65,14 @@ Console.WriteLine($"Day11-b: {Day11.TaskTwo(lines)}");
 lines = File.ReadAllLines(Path.Combine("inputs", "day13-full.txt"));
 Console.WriteLine($"Day13-a: {Day13.TaskOne(lines)}");
 Console.WriteLine($"Day13-b: {Day13.TaskTwo(lines)}");
-*/
 
 // Day 13
 lines = File.ReadAllLines(Path.Combine("inputs", "day14-full.txt"));
 Console.WriteLine($"Day14-a: {Day14.TaskOne(lines)}");
 Console.WriteLine($"Day14-b: {Day14.TaskOne(lines)}");
+*/
+
+// Day 14
+lines = File.ReadAllLines(Path.Combine("inputs", "day14-full.txt"));
+Console.WriteLine($"Day14-a: {Day14.TaskOne(lines)}");
+Console.WriteLine($"Day14-b: {Day14.TaskTwo(lines)}");

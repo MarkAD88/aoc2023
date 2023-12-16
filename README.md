@@ -5,7 +5,7 @@ C# implementations and tests using .NET 8 for the [Advent of Code 2023](https://
 ```text
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
- 14       >24h   32685      0          -       -      -
+ 14       >24h   32685      0       >24h   26902      0
  13       >24h   31355      0       >24h   29258      0
  11   03:12:35   13331      0   16:34:32   33500      0
  10   04:02:42   12311      0          -       -      -
@@ -51,4 +51,4 @@ Had an epiphany this morning and refactored the code to improve the solve speed.
 Finally got around to this while travelling.  Hard problem to solve if for no other reason than I misread the instructions regarding how to calculate the values.  Part two was a beast.  I got 90% of the way there but kept coming up with the wrong answer still.  The issue was introduced by my approach to the problem.  I was accidentally ignoring valid results if the horizontal non-smudged index was the same as the smudged vertical index.  So much trial and error and manual string checking to troubleshoot.
 
 ## Day 14
-Part one of this was super easy - solved it in about 15 minutes.  Too bad I started it nearly a day late.  However, I just read the intructions for part 2 and I'm not sure how I'm goint to solve for it.  Might be a nasty one.
+Part one of this was super easy - solved it in about 15 minutes.  Too bad I started it nearly a day late.  Part two was painful.  Brute force takes way too long so we had to figure out how cyclical a result was in order to reduce the number of iterations that need to be run.  Off by one errors probably cost me at least 2 hours.  Math is hard.
