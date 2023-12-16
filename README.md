@@ -5,6 +5,7 @@ C# implementations and tests using .NET 8 for the [Advent of Code 2023](https://
 ```text
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 15       >24h   31971      0       >24h   28402      0
  14       >24h   32685      0       >24h   26902      0
  13       >24h   31355      0       >24h   29258      0
  11   03:12:35   13331      0   16:34:32   33500      0
