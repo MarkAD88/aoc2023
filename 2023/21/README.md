@@ -108,6 +108,7 @@ Your puzzle answer was `3847`.
 The first half of this puzzle is complete! It provides one gold star: *
 
 --- Part Two ---
+
 The Elf seems confused by your answer until he realizes his mistake: he was reading from a list of his favorite numbers that are both perfect squares and perfect cubes, not his step counter.
 
 The **actual** number of steps he needs to get today is exactly `26501365`.
