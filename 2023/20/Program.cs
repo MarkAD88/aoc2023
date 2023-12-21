@@ -1,5 +1,4 @@
-﻿// Parse lines
-
+﻿// Day 20
 using System.Diagnostics;
 
 List<(char Type, string Name, string[] Destinations)> lines = [];

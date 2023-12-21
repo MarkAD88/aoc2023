@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "code", "code\code.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.unit", "tests.unit\tests.unit.csproj", "{C5AA8803-D969-40A2-B502-F93C6D9E9A5C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2023", "2023", "{FB48BA6E-3152-4382-8151-BBA4387C9354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlenty", "2023\19\APlenty.csproj", "{DD75BD0E-9220-4DDA-A7BA-D465A7086681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PulsePropogation", "2023\20\PulsePropogation.csproj", "{E21398AA-260A-4F4B-85B7-03BBE0F377DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +27,23 @@ Global
 		{C5AA8803-D969-40A2-B502-F93C6D9E9A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5AA8803-D969-40A2-B502-F93C6D9E9A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5AA8803-D969-40A2-B502-F93C6D9E9A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD75BD0E-9220-4DDA-A7BA-D465A7086681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD75BD0E-9220-4DDA-A7BA-D465A7086681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD75BD0E-9220-4DDA-A7BA-D465A7086681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD75BD0E-9220-4DDA-A7BA-D465A7086681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2033C34D-9525-44D9-A8A6-5602388FA63C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD75BD0E-9220-4DDA-A7BA-D465A7086681} = {FB48BA6E-3152-4382-8151-BBA4387C9354}
+		{E21398AA-260A-4F4B-85B7-03BBE0F377DB} = {FB48BA6E-3152-4382-8151-BBA4387C9354}
 	EndGlobalSection
 EndGlobal
