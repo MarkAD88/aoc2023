@@ -1,6 +1,8 @@
-      --------Part 1---------   --------Part 2---------
+```text
+--------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
 21   05:52:15   10761      0          -       -      -
+```
 
 ## Part One
 Nothing too painful here.  The only "unique" part of the solve was adding the module-2 check so that we didn't include every reachable garden plot in the result if the maximum number of moves was evenly divisible by 2.
