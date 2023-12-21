@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlenty", "2023\19\APlenty.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PulsePropogation", "2023\20\PulsePropogation.csproj", "{E21398AA-260A-4F4B-85B7-03BBE0F377DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepCounter", "2023\21\StepCounter.csproj", "{7DBAA651-63ED-49C7-BEF4-4D333B514F9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E21398AA-260A-4F4B-85B7-03BBE0F377DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBAA651-63ED-49C7-BEF4-4D333B514F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBAA651-63ED-49C7-BEF4-4D333B514F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBAA651-63ED-49C7-BEF4-4D333B514F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBAA651-63ED-49C7-BEF4-4D333B514F9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +51,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DD75BD0E-9220-4DDA-A7BA-D465A7086681} = {FB48BA6E-3152-4382-8151-BBA4387C9354}
 		{E21398AA-260A-4F4B-85B7-03BBE0F377DB} = {FB48BA6E-3152-4382-8151-BBA4387C9354}
+		{7DBAA651-63ED-49C7-BEF4-4D333B514F9D} = {FB48BA6E-3152-4382-8151-BBA4387C9354}
 	EndGlobalSection
 EndGlobal
