@@ -1,5 +1,7 @@
 ```text
-
+      --------Part 1---------   --------Part 2---------
+Day       Time    Rank  Score       Time    Rank  Score
+ 24   23:00:56   11308      0          -       -      -
 ```
 
 ## Part One
